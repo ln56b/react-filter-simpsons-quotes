@@ -101,7 +101,7 @@ class App extends Component {
             quote =>
               !this.state.simpsonOnly || quote.character.includes('Simpson')
           )
-          .map((quote, index) => (
+          .map((quote) => (
             <QuoteCard {...quote} />
           ))}
       </div>
